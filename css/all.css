@@ -73,6 +73,8 @@ li{
     position: absolute;
     top: 4em;
     left: 0;
+    right: 0;
+    bottom: 0;
     background-color: rgba(0,0,0,0.4);
 }
 .showcase-heading{
@@ -83,8 +85,32 @@ li{
 }
 /* Description */
 .m-heading{
-    font-size: 1.5em;
+    font-size: 2em;
     color: #5392f9;
+
+}
+.items{
+    display: flex;
+
+}
+.item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+.item:hover{
+    background-color: rgba(194, 192, 192, 0.555);
+}
+.item i{
+    background: #5392f9;
+    padding: 1rem;
+    border-radius: 30%;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.item i:hover{
+    background-color: #333;
+    color: #fff;
 }
 
 /* About */
@@ -107,4 +133,71 @@ li{
     color: #fff;
     background-color: #333;
     padding: 2rem;
+}
+.about-txt:hover{
+    background-color: rgba(5, 5, 5, 0.897);
+}
+
+/* Contact */
+#contact{
+    display: flex;
+}
+#contact div{
+    flex: 1;
+}
+.right-container h2{
+    font-size: 2em;
+    color: #5392f9;
+    text-align: center;
+}
+.right-container, form{
+    padding:1em;
+}
+.right-container form{
+    padding-top:2em;
+}
+.left-container{
+    background: url(../img/3.jpg) no-repeat center center/cover;
+    background-color: rgba(0,0,0,0.4);
+}
+.form-group{
+    margin: 0.75rem;
+    font-size: 1.2em;
+}
+.form-group label{
+    display: block;
+    
+}
+.form-group input, textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: solid #5392f9 0.1em;
+    outline: none;
+}
+.btn{
+    width: 100%;
+    padding:0.7rem;
+    outline: none;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    border: solid 0.08em #5392f9;
+    border-radius: 0.3em;
+    background-color: #fff;
+    color: #5392f9;
+    margin-top: 1em;
+}
+.btn:hover{
+    background-color: #5392f9;
+    color: #fff;
+}
+
+/* Footer */
+#footer{
+    background-color: #333;
+    color: #fff;
+    height: 100%;
+    margin: 0;
+    padding: 0.5em;
 }
