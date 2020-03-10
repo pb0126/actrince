@@ -197,6 +197,15 @@ li{
     background-color: #5392f9;
     color: #fff;
 }
+.alert{
+    background-color:#79c879;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    align-self: center;
+    border-radius: 0.5em;
+    display: none;
+}
 
 /* Footer */
 #footer{
