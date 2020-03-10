@@ -96,7 +96,7 @@ li{
 .item{
     flex: 1;
     text-align: center;
-    padding: 1rem;
+    padding: 6rem;
 }
 .item:hover{
     background-color: rgba(194, 192, 192, 0.555);
@@ -122,17 +122,19 @@ li{
 .about-heading{
     text-align: center;
     color: #5392f9;
+    
 }
 #about div{
     flex: 1;
 }
 #about .about-img{
     background: url('../img/2.jpg') no-repeat center center/cover;
+    padding: 5em;
 }
 .bg-dark{
     color: #fff;
     background-color: #333;
-    padding: 2rem;
+    padding: 5em;
 }
 .about-txt:hover{
     background-color: rgba(5, 5, 5, 0.897);
@@ -142,16 +144,14 @@ li{
 #contact{
     display: flex;
 }
-#contact div{
-    flex: 1;
-}
+
 .right-container h2{
     font-size: 2em;
     color: #5392f9;
     text-align: center;
 }
 .right-container, form{
-    padding:1em;
+    padding:3em;
 }
 .right-container form{
     padding-top:2em;
@@ -159,6 +159,10 @@ li{
 .left-container{
     background: url(../img/3.jpg) no-repeat center center/cover;
     background-color: rgba(0,0,0,0.4);
+    padding: 3em;
+}
+.right-container, .left-container{
+    flex: 1;
 }
 .form-group{
     margin: 0.75rem;
