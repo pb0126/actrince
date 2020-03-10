@@ -1,0 +1,12 @@
+.item{
+    padding: 2em;
+}
+.about-txt, .about-img{
+    padding: 2em !important;
+}
+.right-container, .right-container form, .left-container{
+    padding: 2em !important;
+}
+.left-container{
+    background-position: left;
+}
