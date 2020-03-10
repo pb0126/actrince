@@ -61,3 +61,20 @@ function saveMessage(name, email, contact, message){
         message: message
     });
 }
+
+// Sidebar-controller
+var i=0;
+document.getElementById('sidebarIco').addEventListener('click', function(){
+    if(i==0){
+        document.getElementById('sidebar').style.display = 'block';
+        i=i+1;
+    }
+    else if(i==1){
+        document.getElementById('sidebar').style.display = 'none';
+        i=i-1;
+    } 
+    else  {
+        document.getElementById('sidebar').style.display = 'block';
+    }
+});
+

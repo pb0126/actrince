@@ -39,3 +39,8 @@
     right:0;
     bottom: 0;
 }
+.sidebar-ico{
+    display: block !important;
+    font-size: 1.5em;
+}
+

@@ -10,3 +10,6 @@
 .left-container{
     background-position: left;
 }
+.sidebar, .sidebar-ico{
+    display: none;
+}
