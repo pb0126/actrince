@@ -67,7 +67,7 @@ li{
     text-decoration: none;
     background-color: #fff !important;
     /* color: #000 !important; */
-    position: absolute;
+    position: fixed;
     z-index: 2;
     width: 100vw;
     font-size: 1em;
