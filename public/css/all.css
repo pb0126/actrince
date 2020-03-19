@@ -189,20 +189,59 @@ li{
 }
 
 /* About-Grid */
-.grid-about{
+.grid-about, .grid-sol{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: #000;
+    grid-template-columns: 1fr;
+    background-color: #5392f9;
 }
-.grid-about-element{
+.grid-2, .grid-sol-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-column-gap: 1em; */
+    /* padding: 1em; */
+    padding-top: 2em;
+}
+.grid-about-element, .grid-sol-element{
     padding: 3em;
     text-align: center;
-    background: #333;
+    background: #5392f9;
     color: #fff;
 }
-.grid-about-element:first-child{
+.grid-about-element:hover{
+    background-color: #4089ff;
+}
+.grid-2, .grid-sol-2 div{
+    padding:1em;
+}
+.grid-heading, .grid-sol-heading{
+    text-align: center;
+    color: #fff;
+    font-size: 5em;
+}
+.grid-sol-heading{
+    color: #333 !important;
+    
+}
+.grid-sol, .grid-sol-element{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.grid-sol-2{
+    padding-bottom: 2em;
+}
+.grid-sol i{
+    color: #333 !important;
+}
+.grid-sol p{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+/* .grid-about-element:first-child{
     grid-column: 1/ span 4;
 }
+.grid-about-element:nth-child(2){
+    grid-row: 2/ span 4 ;
+} */
 
 
 /* About

@@ -63,5 +63,21 @@
     padding:1em;
     font-size: 2em;
 }
+.grid-heading{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    padding: 1.7em;
+}
+.grid-about-element{
+    padding: 0.5em;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-column-gap: 1em; */
+    /* padding: 1em; */
+    padding-top: 2em;
+}
 
 
