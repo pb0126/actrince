@@ -63,16 +63,17 @@
     padding:1em;
     font-size: 2em;
 }
-.grid-heading{
+.grid-heading, .grid-sol-heading{
     text-align: center;
     color: #fff;
     font-size: 2em;
-    padding: 1.7em;
+    padding: 1.5em;
 }
-.grid-about-element{
+.grid-about-element, .grid-sol-element{
     padding: 0.5em;
+    padding-bottom: 1em;
 }
-.grid-2{
+.grid-2, .grid-sol-2{
     display: grid;
     grid-template-columns: 1fr;
     /* grid-column-gap: 1em; */

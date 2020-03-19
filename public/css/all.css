@@ -230,11 +230,18 @@ li{
     padding-bottom: 2em;
 }
 .grid-sol i{
-    color: #333 !important;
+    color: #fff !important;
+    background:#333 ;
+    border-radius: 51%;
+    padding: 0.5em;
+}
+.grid-sol i:hover{
+    background-color: #5392f9;
 }
 .grid-sol p{
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
+    color: #333;
 }
 /* .grid-about-element:first-child{
     grid-column: 1/ span 4;
