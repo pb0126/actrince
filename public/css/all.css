@@ -281,23 +281,44 @@ li{
 /* Contact */
 #contact{
     display: flex;
+    flex-direction: row;
 }
 
 .right-container h2{
-    font-size: 2em;
+    font-size: 2.5em;
     color: #5392f9;
     text-align: center;
+    padding-bottom: 1.5em;
 }
-.right-container, form{
-    padding:3em;
+.right-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .right-container form{
-    padding-top:2em;
+    padding:3.2em;
 }
 .left-container{
-    background: url(https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center/cover;
+    background: url(https://images.unsplash.com/photo-1493219686142-5a8641badc78?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat center center/cover;
     background-color: rgba(0,0,0,0.4);
     padding: 3em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.left-container h1{
+    display: none;
+}
+.flex-lc{
+    /* background-color: rgba(99, 99, 99, 0.137); */
+    padding: 1em;
+}
+.flex-lc i{
+    border-radius: 50%;
+    background-color: #333;
+    color:#fff;
+    padding: 0.5em;
 }
 .right-container, .left-container{
     flex: 1;

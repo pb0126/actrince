@@ -13,13 +13,13 @@
 .sidebar, .sidebar-ico{
     display: none;
 }
-.grid-heading{
+.grid-heading, .grid-sol-heading{
     text-align: center;
     color: #fff;
     font-size: 2em;
     padding: 1.5em;
 }
-.grid-about-element{
+.grid-about-element,.grid-sol-element{
     padding: 0.5em;
 }
 .grid-2{
